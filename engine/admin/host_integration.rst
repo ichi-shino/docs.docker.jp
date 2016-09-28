@@ -27,7 +27,7 @@ Docker 1.2 から :ref:`再起動ポリシー <restart-policies-restart>` が Do
 
 .. If restart policies don’t suit your needs (i.e., you have non-Docker processes that depend on Docker containers), you can use a process manager like upstart, systemd or supervisor instead.
 
-必要に応じて再起動ポリシーを使わないでください（例：Docker ではないプロセスが Docker コンテナに依存する場合）。そのような場合は、再起動ポリシーの代わりに `upstart <http://upstart.ubuntu.com/>`_ 、 `systemd <http://freedesktop.org/wiki/Software/systemd/>`_ 、 `supervisor <http://supervisord.org/>`_  といったプロセス・マネージャをお使いください。
+再起動ポリシーがニーズに合わない場合（例：Docker ではないプロセスが Docker コンテナに依存する場合）、代わりに `upstart <http://upstart.ubuntu.com/>`_ 、 `systemd <http://freedesktop.org/wiki/Software/systemd/>`_ 、 `supervisor <http://supervisord.org/>`_  といったプロセス・マネージャをお使いください。
 
 .. Using a process manager
 
