@@ -101,7 +101,7 @@ systemd
 
 .. If you need to pass options to the redis container (such as --env), then you’ll need to use docker run rather than docker start. This will create a new container every time the service is started, which will be stopped and removed when the service is stopped.
 
-redis コンテナに（ ``--env`` のような）オプションを渡したい場合は、 ``docker run`` に代わって ``docker start`` を使う必要があります。次の例は、起動したコンテナのサービスが停止、または、サービス停止によってコンテナが削除されたとしても、新しいコンテナを毎回作成します。
+redis コンテナに（ ``--env`` のような）オプションを渡したい場合は、 ``docker start`` に代わって ``docker run`` を使う必要があります。次の例は、起動したコンテナのサービスが停止、または、サービス停止によってコンテナが削除されたとしても、新しいコンテナを毎回作成します。
 
 .. code-block:: bash
 
